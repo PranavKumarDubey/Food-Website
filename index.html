@@ -1,0 +1,795 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food-website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <div class="logo">
+                <h1>MAJESTIC</h1>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reservation">Reservation</a>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-brand">Order-Online</a>
+            </div>
+        </div>
+    </nav>
+    <!--hero section-->
+    <div id="heroslider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item text-center bg-cover vh-100 active slide-1">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">Welcome To Majestic</h6>
+                            <h1 class="display-1 fw-bold text-white">Delicious And Tasty Food</h1>
+                            <a href="#" class="btn btn-brand">Reservation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item text-center bg-cover vh-100 slide-2">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center ">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">Welcome To Majestic</h6>
+                            <h1 class="display-1 fw-bold text-white">Fresh & Tasty Food</h1>
+                            <a href="#" class="btn btn-brand">Reservation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroslider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroslider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--about-->
+    
+    <section id="about">
+        <div class="container">
+            <div class="row gy-4 align-items-center ">
+                <div class="col-lg-5">
+                    <img src="https://cdn.pixabay.com/photo/2024/04/09/01/45/ai-generated-8684830_1280.png" alt="">
+                </div>
+                <div class="col-lg-4 info">
+                    <h1>About us</h1>
+                    <div class="divider my-4"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ad vero rem delectus cupiditate
+                        reprehenderit enim, expedita dolores dolorem corporis fugiat vel, iusto quod dicta nulla culpa
+                        tempore in quisquam?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nam est voluptatum nisi nostrum,
+                        ullam ipsa tenetur maiores magnam quos eius alias.</p>
+                    <a href="#" class="btn btn-brand">Explore Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Menu-->
+    <section id="menu" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Explore Our Menu</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur veritatis nesciunt
+                        molestiae
+                        mollitia praesentium reprehenderit repellat.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+                        type="button" role="tab" aria-controls="pills-all" aria-selected="true">All Items</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="pills-breakfast-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-breakfast" type="button" role="tab" aria-controls="pills-breakfast"
+                        aria-selected="true">Breakfast</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch"
+                        type="button" role="tab" aria-controls="pills-lunch" aria-selected="true">Lunch</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-dinner"
+                        type="button" role="tab" aria-controls="pills-lunch" aria-selected="true">Dinner</button>
+                </li>
+
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
+                    tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://cdn.pixabay.com/photo/2023/06/27/15/16/rice-8092512_1280.jpg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Rice Biriyani</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://cdn.pixabay.com/photo/2018/12/04/16/49/korma-3856046_1280.jpg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Korma</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img
+                                    src="https://images.pexels.com/photos/12261065/pexels-photo-12261065.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Fudgy Chewy Pizza</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img
+                                    src="https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Noodles</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://cdn.pixabay.com/photo/2018/12/04/16/49/tandoori-3856045_1280.jpg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Paneer Tika</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://cdn.pixabay.com/photo/2017/01/10/18/00/indian-1969797_1280.jpg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Dhokala</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img
+                                    src="https://images.unsplash.com/photo-1668236543090-82eba5ee5976?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Mashala Dhosa</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img
+                                    src="https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Sandwiches</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show " id="pills-breakfast" role="tabpanel"
+                    aria-labelledby="pills-breakfast-tab" tabindex="0">
+                    <div class="row gy-4">
+
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img
+                                    src="https://images.pexels.com/photos/12261065/pexels-photo-12261065.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Fudgy Chewy Pizza</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img
+                                    src="https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Noodles</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://cdn.pixabay.com/photo/2017/01/10/18/00/indian-1969797_1280.jpg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Dhokala</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img
+                                    src="https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Sandwiches</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show " id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab"
+                    tabindex="0">
+                    <div class="row gy-4">
+
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://cdn.pixabay.com/photo/2018/12/04/16/49/tandoori-3856045_1280.jpg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Paneer Tika</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://cdn.pixabay.com/photo/2017/01/10/18/00/indian-1969797_1280.jpg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Dhokala</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img
+                                    src="https://images.unsplash.com/photo-1668236543090-82eba5ee5976?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Mashala Dhosa</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img
+                                    src="https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Sandwiches</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show " id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab"
+                    tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://cdn.pixabay.com/photo/2023/06/27/15/16/rice-8092512_1280.jpg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Rice Biriyani</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://cdn.pixabay.com/photo/2018/12/04/16/49/korma-3856046_1280.jpg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Korma</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://cdn.pixabay.com/photo/2018/12/04/16/49/tandoori-3856045_1280.jpg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Paneer Tika</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 coll-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img
+                                    src="https://images.unsplash.com/photo-1668236543090-82eba5ee5976?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>
+                                            Rated (5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star-half-stroke"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 my-2">Mashala Dhosa</h5>
+                                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex
+                                        nostrum, dignissimos quae aperiam alias delectus fugiat non magni debitis!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Features-->
+    <section id="features">
+        <div class="container " class="bg-cover">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1 class="text-white">Why to choose us?</h1>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+                        veritatis nesciunt
+                        molestiae
+                        mollitia praesentium reprehenderit repellat.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature py-5 px-4 text-center">
+                        <div class="wifi">
+                            <i class="fa-solid fa-wifi"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-4">Free Wifi </h4>
+                        <p class="text-white">Lorem ipsum Dolorum unde nulla eius autem voluptas amet sunt. Praesentium
+                            beatae nam voluptatum.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature py-5 px-4 text-center">
+                        <div class="wifi">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-4">Fast Delivery </h4>
+                        <p class="text-white">Lorem ipsum Dolorum unde nulla eius autem voluptas amet sunt. Praesentium
+                            beatae nam voluptatum.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature py-5 px-4 text-center">
+                        <div class="wifi">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-4">Friendly Staf </h4>
+                        <p class="text-white">Lorem ipsum Dolorum unde nulla eius autem voluptas amet sunt. Praesentium
+                            beatae nam voluptatum.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature py-5 px-4 text-center">
+                        <div class="wifi">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-4">Highly Rated </h4>
+                        <p class="text-white">Lorem ipsum Dolorum unde nulla eius autem voluptas amet sunt. Praesentium
+                            beatae nam voluptatum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team-->
+
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1 class="text-blac">Why to choose us?</h1>
+                    <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+                        veritatis nesciunt
+                        molestiae
+                        mollitia praesentium reprehenderit repellat.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member  border shadow-on-hover text-center  p-4">
+                        <img src="https://st2.depositphotos.com/1017986/6607/i/950/depositphotos_66077195-stock-photo-happy-male-chef-cook-in.jpg">
+                        <div class="team-member-content">
+                            <h4 class="mt-2">Jon Doe</h4>
+                            <p class="mb-0 "> Main Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member  border shadow-on-hover text-center  p-4">
+                        <img src="https://chefdavinderkumar.com/wp-content/uploads/2021/upload/Media2-1%20(1).jpg">
+                        <div class="team-member-content">
+                            <h4 class="mt-3">Jon Doe</h4>
+                            <p class="mb-0 "> Main Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member  border shadow-on-hover text-center  p-4">
+                        <img src="https://static.cordonbleu.edu/Files/MediaFile/70795.jpg">
+                        <div class="team-member-content">
+                            <h4 class="mt-3">Jon Doe</h4>
+                            <p class="mb-0 "> Main Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member  border shadow-on-hover text-center  p-4">
+                        <img src="https://static.cordonbleu.edu/Files/MediaFile/70794.jpg">
+                        <div class="team-member-content">
+                            <h4 class="mt-3">Jon Doe</h4>
+                            <p class="mb-0 "> Main Chef</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--Reservation-->
+     <section id="reservation">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1 class="text-blac">Reservation</h1>
+                    <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+                        veritatis nesciunt
+                        molestiae
+                        mollitia praesentium reprehenderit repellat.</p>
+                </div>
+            </div>
+            <form action="# " class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row gy-3">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Full-Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" placeholder="Email address">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Date">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Numer of Person">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <input type="text" class="form-control" placeholder="Enter Message">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <a href="#" class="btn btn-brand"> Send Message</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+     </section>
+
+   <!--Footer-->
+   
+    <footer>
+        <div class="footer-top ">
+            <div class="container bg-cover vh-80 " >
+                <div class="row">
+                    <div class="col-lg-4  ">
+                       <h1 class="text-white">MAJESTIC</h1>
+                         <p class="text-white ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam debitis aspernatur qui praesentium nostrum esse alias sunt explicabo neque. At omnis neque error eligendi accusamus quos soluta praesentium rerum ratione. </p>
+                        <div class="social-icon py-2">
+                            <a class="text-white" href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a class="text-white" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a class="text-white" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ms-auto">
+                        <h6 class="text-white mb-4">Contact No.</h6>
+                        <P class="text-white mb-1">0123456789</P>
+                         <p class="text-white mb-1">Email:abc@gmail.com</p>
+                         <p class="text-white mb-1">Address:Street B/22 Sarvodaya Nagar, Panjrapole Rd, Girgaum, Mumbai</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h6 class="text-white mb-4">Opening Hours</h6>
+                        <P class="text-white mb-1">Monday-Friday : 8:00-22:00</P>
+                         <p class="text-white">Saturday-Sunday : 8:00-22:00</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
